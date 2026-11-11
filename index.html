@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Perry</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1afe3b027a.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@5/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init(rlExpB8drf1rgq-Pf{
+        publicKey: "YOUR_PUBLIC_KEY",
+      });
+   })();
+</script>
+</head>
+<body>
+  <section id="landing-page">
+    <nav>
+      <figure>
+        <img id="personal-logo" src="./assets/logo.jpg" alt="">
+      </figure> 
+      <ul class="nav__link--list">
+        <li class="nav__link">
+           <a href="#" class="
+           nav__link--anchor
+           link__hover-effect
+            link__hover-effect--black
+           ">About</a> 
+        </li>
+        <li class="nav__link">
+           <a href="#" class="
+           nav__link--anchor
+           link__hover-effect
+            link__hover-effect--black
+           ">Projects</a> 
+        </li>
+        <li class="nav__link">
+           <a href="#" class="
+           nav__link--anchor
+           link__hover-effect
+            link__hover-effect--black
+           ">Contact</a> 
+        </li>
+        <li class="nav__link click">
+           <a href="#" class="
+           nav__link--anchor
+           link__hover-effect
+            link__hover-effect--black
+           "><i class="fa-solid fa-circle-half-stroke"></i></a> 
+        </li>
+      </ul> 
+    </nav>
+    <header class="header">
+        <div class="header__content">
+            <h1 class="title">Hello!</h1>
+            <h1 class="title title--orange">I'm Michael</h1>
+            <p class="header__para">
+                I'm a <b class="orange">Frontend Software Engineer</b> with a passion for creating engaging web experiences.
+            
+            <br>
+            Here is a bit more <b class="orange">about me</b>
+            </p>
+            <div class="modal__language">
+            <figure class="modal__languages">
+                <img class="modal__language--img" src="#" alt="">
+                <span class="language__name">HTML</span>
+            </figure>
+            <figure class="modal__language">
+                <img class="modal__language--img" src="#" alt="">
+                <span class="language__name">CSS</span>
+            </figure>
+            <figure class="modal__language">
+                <img class="modal__language--img" src="#" alt="">
+                <span class="language__name">JS</span>
+            </figure>
+            <figure class="modal__language">
+                <img class="modal__language--img" src="#" alt="">
+                <span class="language__name"></span>
+            </figure>
+            <div class="social__list">
+                <a href="#" class=" social__link click">
+                <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="#" class=" social__link click">
+                <i class="fa-brands fa-square-github"></i>
+                </a>
+                <a href="#" class="social__link click">
+                <i class="fa-solid fa-file-pdf"></i>
+                </a>
+            </div>
+        </div>
+        </div>
+    </header>
+    <button class="mail__button click">
+        <i class="fa-solid fa-envelope"></i>"
+        </button>
+        <a href="projects" class="scroll">
+            <div class="scroll__icon click"></div>
+        </a>
+        <div class="modal">
+          <div class="modal__half modal__about">Here is a bit about me</div>
+           <div class="modal__half modal__contact">
+            <h3 class="model__title model__title--contact">
+                Let's have a chat!
+            </h3>
+            <h3 class="model__sub-title model__sub-title--contact">
+                I'm currently open to new opportunities. 
+            </h3> 
+            <form id="contact__form" onsubmit="contact(event)">
+              <div class="form__item">
+                <label class="form__item--label">Name</label>
+                <input class="input" name"user_name" type="text" required></input>
+              </div>  
+              <div class="form__item">
+                <label class="form__item--label">Email</label>
+                <input class="input" name"user_name" type="email" required></input>
+              </div> 
+              <div class="form__item">
+                <label class="form__item--label">Message</label>
+                <textarea class="input" name"user_name" type="text" required></textarea>
+              </div> 
+              <button id="contact__submit" class="form__submit">
+                Send it my way!
+              </button>
+              </form>
+              <div class="modal__overlay modal__overlay--loading">
+                <i class="fas fa-spinner"></i>
+              </div>
+              <div class="modal__overlay modal__overlay--success">
+                Thank you for the message! I look forward to speaking to you soon.
+              </div>
+           </div>
+           <i class="fas fa-times modal__exit click"></i>
+           </div>
+  </section>  
+  <section id="projects">
+    <div class="container">
+       <div class="row">
+        <h1 class="section__title">
+            Here Are Some Of My <span class="orange">Projects</span>
+        </h1>
+        <ul class="project__list">
+           <li class="project">
+            <div class="project__wrapper">
+             <img src="./assets/logo1.jpg" class="project__img" alt=""> 
+             <div class="project__wrapper--background">
+
+             </div>
+             <div class="project__description">
+                <h3 class="project__discription--title">
+                  Car Sales Projects  
+                </h3>
+                <h4 class="project__description--sub-title">
+                    Html, CSS, JavaScript, API
+                </h4>
+                <div class="project__description--para">
+                   <div class="project__description--links">
+                    <a href="#" class="project__description--link">
+                        <i class="fa-brands fa-square-github"></i>
+                     </a>
+                     <a href="#" class="project__description--link">
+                        <i class="fas-brands fa-link"></i>
+                        <li class="project">
+            <div class="project__wrapper">
+             <img src="./assets/logo2.jpg" class="project__img" alt=""> 
+             <div class="project__wrapper--background"></div>
+             <div class="project__description">
+                <h3 class="project__discription--title">
+                  E-Commerce Store  
+                </h3>
+                <h4 class="project__description--sub-title">
+                    Html, CSS, JavaScript
+                </h4>
+                <div class="project__description--para">
+                   <div class="project__description--links">
+                    <a href="#" class="project__description--link">
+                        <i class="fa-brands fa-square-github"></i>
+                     </a>
+                     <a href="#" class="project__description--link">
+                        <i class="fa-solid fa-link"></i>
+                        <li class="project">
+            <div class="project__wrapper">
+             <img src="./assets/logo3.jpg" class="project__img" alt=""> 
+             <div class="project__wrapper--background"></div>
+             <div class="project__description">
+                <h3 class="project__discription--title">
+                  E-Commerce Store  
+                </h3>
+                <h4 class="project__description--sub-title">
+                    Html, CSS, JavaScript
+                </h4>
+                <div class="project__description--para">
+                   <div class="project__description--links">
+                    <a href="#" class="project__description--link">
+                        <i class="fa-brands fa-square-github"></i>
+                     </a>
+                     <a href="#" class="project__description--link">
+                        <i class="fa-solid fa-link"></i>
+                        <li class="project">
+            <div class="project__wrapper">
+             <img src="./assets/logo4.jpg" class="project__img" alt=""> 
+             <div class="project__wrapper--background"></div>
+             <div class="project__description">
+                <h3 class="project__discription--title">
+                  E-Commerce Store  
+                </h3>
+                <h4 class="project__description--sub-title">
+                    Html, CSS, JavaScript
+                </h4>
+                <div class="project__description--para">
+                   <div class="project__description--links">
+                    <a href="#" class="project__description--link">
+                        <i class="fa-brands fa-square-github"></i>
+                     </a>
+                     <a href="#" class="project__description--link">
+                        <i class="fa-solid fa-link"></i>
+                     </a>
+                   </div> 
+                </div>
+             </div>
+            </div>
+           </li>
+                     </a>
+                   </div> 
+                </div>
+             </div>
+            </div>
+           </li>
+                     </a>
+                   </div> 
+                </div>
+             </div>
+            </div>
+           </li>
+                     </a>
+                   </div> 
+                </div>
+             </div>
+            </div>
+           </li> 
+        </ul>
+       </div> 
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+        <div class="row footer__row">
+
+        <figure>
+        <img class="footer__logo--img" src="./assets/logo.jpg" alt="">
+        </figure>
+    <div class="footer__social--list">
+    <a href="#" class="
+        footer__social--link
+        link__header-effect
+        link__header-effect--white
+    ">
+        GitHub
+    </a>
+     <a href="#" class="
+        footer__social--link
+        link__header-effect
+        link__header-effect--white
+    ">
+        LinkedIn
+    </a>
+     <a href="#" class="
+        footer__social--link
+        link__header-effect
+        link__header-effect--white
+    ">
+        Contact
+    </a>
+     <a href="#" class="
+        footer__social--link
+        link__header-effect
+        link__header-effect--white
+    ">
+        Resume
+    </a>
+    </div>
+    <div class="footer__copyright"> Copyright @ 2026 Michael Perry
+
+    </div>
+  </footer>
+</body>
+</html>
