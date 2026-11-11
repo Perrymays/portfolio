@@ -1,9 +1,20 @@
+let isModalOpen = false;
+let contrastToggle = false;
 
+function toggleContrast() {
+    contrastToggle = !contrastToggle;
+    if (contrastToggle) {
+    document.body.classList.add('dark-theme')
+     }
+   else {
+    document.body.classList.remove('dark-theme')
+   }
+}
 
 function contact(event) {
 event.preventDefault();
-const loading = document.querySelector('.modal__overlay-loading')
-const success = document.querySelector('.modal__overlay-success')
+const loading = document.querySelector('.modal__overlay--loading')
+const success = document.querySelector('.modal__overlay--success')
 loading.classList .add("modal__overlay--visible");
   emailjs
     .sendForm (
@@ -22,4 +33,14 @@ loading.classList .add("modal__overlay--visible");
         "The email service is temporarily unavailable. Please contact me directly at michael.perry94387@gmail.com"
         );
     });
+}
+
+    isModalOpen = false;
+function toggleModal() {
+    if (isModalOpen) {
+        isModalOpen = false;
+        return document.body.classList.remove("modal--open")
+      }
+        isModalOpen = true;
+        document.body.classList.add("modal--open");
 }
