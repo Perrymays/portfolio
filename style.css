@@ -286,7 +286,7 @@ MODAL
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
-    max-width: 1100;
+    max-width: 1100px;
     height: 700px;
     box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
     border-radius: 20px;
@@ -391,7 +391,7 @@ transform: scale(1);
     color: #f06449;
 }
 
-.modal__ovelay {
+.modal__overlay {
      position: absolute;
    top: 0;
    left: 0;
@@ -417,7 +417,7 @@ transform: scale(1);
     padding: 28px;
 }
 
-.modal__ovelay--visible {
+.modal__overlay--visible {
   z-index: 1;
 }
 
